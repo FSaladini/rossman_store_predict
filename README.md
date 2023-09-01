@@ -53,13 +53,13 @@ It is Machine Learning time. We've used a feel different approaches to decide wh
 
 Here's the first error table with these algorithms, using as error metrics MAE, MAPE, and RMSE:
 
-![ml-error](img\firsterror.png)
+![ml-error](img/firsterror.png)
 
 We can see here that the linear regression models are outperformed by the average model, meaning our data is definitely NOT LINEAR.  
 
 Right after that we confirmed the **Random Forest Regressor** and the **XGBoost** methods better performance by creating a **cross-validation** section. Here are the results using 5 iterations:
 
-![cv-error](img\cverror.png)
+![cv-error](img/cverror.png)
 
 It is possible to see that our assumption was right on which models would perform well, but now we can see that the error is a bit wider than we anticipated.  
 
